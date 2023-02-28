@@ -14,7 +14,7 @@ namespace Laba3
             }
             Day day = (Day)Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите час");
-            double hour = Convert.ToByte(Console.ReadLine());
+            double hour = Convert.ToDouble(Console.ReadLine());
 
             if (hour >= 0 && hour <= 6)
             {
